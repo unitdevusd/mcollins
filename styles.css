@@ -1,11 +1,13 @@
+body,
+html{
+  min-height:100%;
+}
+
 body{
   margin: 0;
   padding: 0;
   background: url(bg.jpg) no-repeat;
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size:  100% 100%;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 .box{
   width: 450px;
